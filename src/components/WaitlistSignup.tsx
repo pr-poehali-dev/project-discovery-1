@@ -19,13 +19,19 @@ export function WaitlistSignup() {
     <div className="w-full max-w-xl mx-auto p-8 flex flex-col justify-between min-h-screen">
       <div className="flex-1 flex flex-col justify-center items-center text-center">
         <div>
-          <h2 className="text-4xl sm:text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-br from-gray-200 to-gray-600">
-            Присоединяйтесь к Launchpad
+          <img
+            src="https://cdn.poehali.dev/projects/83471567-01fa-45d8-9374-a953f32eb01f/files/08f14aeb-d7b9-4e31-b38f-8389cda20244.jpg"
+            alt="DragonsWorld Dragon"
+            className="w-48 h-48 object-cover rounded-2xl mx-auto mb-6 shadow-2xl shadow-red-900/60 ring-2 ring-orange-500/30"
+          />
+          <h2 className="text-4xl sm:text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-br from-orange-300 via-red-400 to-gray-500">
+            DragonsWorld
           </h2>
+          <p className="text-sm font-semibold tracking-[0.3em] uppercase text-orange-400 mb-4">Minecraft сервер</p>
         </div>
         <div>
           <p className="text-lg sm:text-xl mb-8 text-gray-300">
-            Станьте частью чего-то особенного. Присоединяйтесь к тысячам людей, которые уже получили ранний доступ к нашей революционной платформе.
+            Эпические битвы с драконами, уникальные боссы и легендарный лут. Оставь email — узнай первым о дате открытия сервера и получи бонус для старта.
           </p>
         </div>
         <div className="w-full">
@@ -38,7 +44,7 @@ export function WaitlistSignup() {
               <Avatar initials="МП" index={1} />
               <Avatar initials="ЕС" index={2} />
             </div>
-            <p className="text-white font-semibold">{waitlistCount}+ человек в списке ожидания</p>
+            <p className="text-white font-semibold">{waitlistCount}+ игроков уже в очереди</p>
           </div>
         </div>
       </div>
